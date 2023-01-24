@@ -1,0 +1,106 @@
+body {
+    background: #17181F;
+    overflow: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    background-color: #17181F;
+    justify-content: space-between;
+    max-width: 1440px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.cabecalho .logo {
+    width: 106px;
+}
+
+.cabecalho .menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.cabecalho nav li a {
+    font-weight: bold;
+    color: #EEEDF0;
+    font-size: 25px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+.cabecalho nav li a:hover {
+    background-color: #d6dededa;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 81px);
+    padding: 0 30px 30px;
+}
+
+.container .imagen-tenis {
+    position: absolute;
+    width: 819px;
+    height: 721px;
+    left: 185px;
+    top: -50px;
+    background-image: url(../imagens/tenis.png);
+    transform: rotate(2deg);
+}
+
+p {
+    position: absolute;
+    height: 100px;
+    left: 120px;
+    top: 200px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 278px;
+    line-height: 339px;
+    text-align: center;
+    letter-spacing: 120px;
+    color: rgba(238, 237, 240, 0.1);
+}
+
+.container .titulo {
+    position: absolute;
+    width: 892px;
+    height: 93px;
+    left: 215px;
+    top: 120px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 93px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgba(238, 237, 240, 0.85);
+}
+
+
+.container .subtitulo {
+    position: absolute;
+    width: 555px;
+    height: 34px;
+    left: 405px;
+    top: 580px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #EEEDF0;
+    text-shadow: 0px 5px 12px rgba(203, 105, 193, 0.25);
+}
